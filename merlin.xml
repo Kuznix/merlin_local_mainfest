@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="android"
+          fetch="https://github.com/LineageOS"
+          revision="lineage-23.2"/>
+
+  <remote name="mt6768-dev"
+          fetch="https://github.com/mt6768-dev"
+          revision="lineage-23.2"/>
+
+  <!-- Device Trees -->
+  <project path="device/xiaomi/merlinx"
+           name="android_device_xiaomi_merlinx"
+           remote="mt6768-dev"/>
+
+  <project path="device/xiaomi/mt6768-common"
+           name="android_device_xiaomi_mt6768-common"
+           remote="mt6768-dev"/>
+
+  <!-- Kernel -->
+  <project path="kernel/xiaomi/mt6768"
+           name="android_kernel_xiaomi_mt6768"
+           remote="mt6768-dev"/>
+
+  <!-- Vendor -->
+  <project path="vendor/xiaomi/merlinx"
+           name="proprietary_vendor_xiaomi_merlinx"
+           remote="mt6768-dev"/>
+
+  <project path="vendor/xiaomi/mt6768-common"
+           name="proprietary_vendor_xiaomi_mt6768-common"
+           remote="mt6768-dev"/>
+
+</manifest>
