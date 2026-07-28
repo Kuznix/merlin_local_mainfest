@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
-  <remote name="android"
-          fetch="https://github.com/LineageOS"
-          revision="lineage-23.2"/>
-
   <remote name="mt6768-dev"
           fetch="https://github.com/mt6768-dev"
           revision="lineage-23.2"/>
